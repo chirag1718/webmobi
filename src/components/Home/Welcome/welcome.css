@@ -1,0 +1,39 @@
+.welcome {
+  font-family: var(--font-poppins);
+  margin: 50px;
+  position: relative;
+}
+
+.welItem {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 50px;
+}
+
+.welItem > p {
+  font-size: 20px;
+  color: rgb(25, 24, 24);
+}
+
+.incubyte {
+  color: rgb(14, 14, 159);
+}
+
+.imgWrapper {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 550px;
+  overflow: hidden;
+}
+
+.imgWrapper > img {
+  object-fit: contain;
+}
+
+/* ellipeses */
+

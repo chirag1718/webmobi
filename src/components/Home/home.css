@@ -1,0 +1,29 @@
+.homeWrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: lightblue;
+  position: relative;
+}
+
+.left {
+  position: absolute;
+  top: 50%;
+  left: -10%;
+}
+
+.right {
+  position: absolute;
+  top: 15%;
+  right: 0;
+}
+
+.upsideDown {
+  position: absolute;
+  z-index: 1;
+  top: 0%;
+  left: 5%;
+  height: 200px;
+}
